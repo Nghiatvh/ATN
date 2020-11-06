@@ -15,7 +15,7 @@ var storage = multer.diskStorage({
 });
 var uploadStore = multer({ storage: storage });
 
-const dbname = 'atnshop';
+const dbname = 'atn-shop';
 const uri = 'mongodb+srv://nghiatvh:nghia123456@cluster0.uinee.mongodb.net/atn-shop?retryWrites=true&w=majority' + dbname;
 
 /// --- Code CONTROLLERs
